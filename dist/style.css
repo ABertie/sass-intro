@@ -1,0 +1,56 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table, tr, th, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.siteHeader {
+  background-color: hsl(210, 50%, 50%);
+  padding: 2em 5em;
+  height: 20em;
+}
+.siteHeader__brand {
+  text-decoration: none;
+  color: coral;
+}
+
+.primaryMenu {
+  display: flex;
+  justify-content: space-between;
+}
+.primaryMenu__link {
+  text-decoration: none;
+  color: white;
+}
+.primaryMenu__link:hover {
+  color: limegreen;
+}
+
+.openingHours§ {
+  border: 1px solid black;
+  width: 80%;
+}
+.openingHours§__heading {
+  font-weight: bold;
+}
+.openingHours§__data:nth-of-type(odd) {
+  background-color: hsl(210, 50%, 50%);
+}
+.openingHours§__data:nth-of-type(even) {
+  background-color: #79a6d2;
+}
+.openingHours§__data--day, .openingHours§__data--time {
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=style.css.map */

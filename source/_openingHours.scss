@@ -1,0 +1,23 @@
+@use "variables" as *;
+
+.openingHours§{
+    border: 1px solid black;
+    width: 80%;
+
+    &__heading{
+        font-weight: bold;
+    }
+
+    &__data{
+        &:nth-of-type(odd){
+            background-color: $primaryBrandColor;
+        }
+        &:nth-of-type(even){
+            background-color: $secondaryBrandColor;
+        }
+
+        &--day, &--time{
+            color: whitesmoke;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@use "variables" as *;
+
+.siteHeader {
+    background-color: $primaryBrandColor;
+    padding: 2em 5em;
+    height: 20em;
+
+    &__brand {
+        text-decoration: none;
+        color: coral;
+    }
+}

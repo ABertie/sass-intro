@@ -1,0 +1,5 @@
+$primaryBrandHue: 210;  
+
+$primaryBrandColor: hsl($primaryBrandHue, 50%, 50%);
+
+$secondaryBrandColor: lighten($primaryBrandColor, 15%);

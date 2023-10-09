@@ -3,12 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sass sandkasse</title>
+    <title>Demo af SASS</title>
 
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/dist/style.css">
+
 </head>
 <body>
-    
+
+    <header class="siteHeader">
+        <a href="/" class="siteHeader__brand">LOGO</a>
+        <nav>
+            <ul class="primaryMenu">
+                <li class="primaryMenu__item"><a href="#" class="primaryMenu__link">link 1</a></li>
+                <li class="primaryMenu__item"><a href="#" class="primaryMenu__link">link 2</a></li>
+                <li class="primaryMenu__item"><a href="#" class="primaryMenu__link">link 3</a></li>
+                <li class="primaryMenu__item"><a href="#" class="primaryMenu__link">link 4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="info">
+            <table class="openingHours">
+                <thead>
+                    <th class="openingHours__heading" colspan="2">Åbningstider</th>
+                </thead>
+                <tbody>
+                    <tr class="openingHours__data">
+                        <td class="openingHours__data--day">Mandag</td>
+                        <td class="openingHours__data--time">08:00 - 16:00</td>
+                    </tr>
+                    <tr class="openingHours__data">
+                        <td class="openingHours__data--day">Tirsdag</td>
+                        <td class="openingHours__data--time">08:00 - 16:00</td>
+                    </tr>
+                    <tr class="openingHours__data">
+                        <td class="openingHours__data--day">Onsdag</td>
+                        <td class="openingHours__data--time">08:00 - 12:00</td>
+                    </tr>
+                    <tr class="openingHours__data">
+                        <td class="openingHours__data--day">Torsdag</td>
+                        <td class="openingHours__data--time">08:00 - 16:00</td>
+                    </tr>
+                    <tr class="openingHours__data">
+                        <td class="openingHours__data--day">Fredag</td>
+                        <td class="openingHours__data--time">lukket</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
 </body>
 </html>
